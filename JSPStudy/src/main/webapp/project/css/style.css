@@ -1,0 +1,334 @@
+.nav {
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin:auto;
+
+}
+
+.nav .logo img{
+      width:120px;
+
+}
+
+.nav .nav_but a{
+      text-decoration: none;
+      padding-left: 20px;
+      padding-right: 10px;
+      color: black;
+      font-weight: bold;
+      line-height: 60px;
+
+}
+
+.header {
+      background: url(../images/pic.jpg); /**백그라운드 배경 설정**/
+      background-position: center; /**배경위치 중앙**/
+      background-size: 1920px 1080px; /**cover;**/ /**배경크기 : 그림 하나를 꽉차게**/
+      height: 700px; /**헤더 높이는 700px**/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.header .title{
+      text-align: center; /**요소 중앙배열**/
+}
+
+.header .title img{
+      width: 100px;
+
+}
+
+.header .title h1{
+      font-size: 40px;
+      color: black; /**#66CCFF;**/
+      letter-spacing: 0.2em; /**글자 간격 조절**/
+      margin-bottom:0; /**h1 아래쪽 마진을 0으로 조절**/
+}
+
+
+.header .title p{
+      margin-top: 0;
+      margin-bottom: 30px;
+      color: #444;
+
+}
+
+.header .title button{
+      background: black;
+      color: white;
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 10px 30px;
+      font-size: 14px;
+      transition: .5s ease;
+
+}
+
+.header .title button:hover{
+      transition: 5s ease;
+      border: 2px solid black;
+      background: transparent;
+      color: black;
+}
+
+.serv_list {
+      padding-top:70px;
+      padding-bottom: 70px;
+}
+
+.serv_list .container{
+      max-width: 1100px;
+      margin: auto;
+
+
+
+}
+
+.serv_list .container .title .h2_size {
+      font-size: 35px;
+
+}
+
+.serv_list .container .title ul{
+      padding-left: 0;
+      list-style: none; /**ul의 점을 없애줌**/
+
+}
+
+.serv_list .container .title ul li{
+      display: inline; /**ul의 li를 가로로 정렬해줌**/
+      margin-right: 30px;
+
+}
+
+.serv_list .container .title ul li a{
+      text-decoration: none;
+      color: #444;
+}
+
+.serv_list .container .item_list{
+      display: flex;
+      flex-wrap: wrap; /**상위요소의 너비보다 하위 요소의 너비가 더 클 경우 줄바꿈**/
+      justify-content: space-between;
+      float: left;
+      margin: 5px;
+}
+
+.serv_list .container .item_list .card{
+      border: 1px solid #eee; /**테두리를 1px 실선의 흰색 색상으로**/
+      border-radius: 5px; /**모서리를 5px 만큼 둥글게**/
+      height: 350px;
+      width: 250px;
+      padding: 5px;
+      margin-bottom: 10px;
+}
+
+.serv_list .container .item_list .card img{
+      height: 200px;
+      width: 250px;
+
+}
+
+
+.serv_list .container .item_list .card .text p{
+  font-size: 14px;
+  opacity: .8;
+}
+
+.serv_list .container .item_list .card .text button{
+  background:  black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: .5s ease;
+}
+
+.serv_list .container .item_list .card .text button:hover {
+  transition: .5s ease;
+  border:2px solid black;
+  background: transparent;
+  color: black;
+}
+
+
+/**테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트테스트**/
+
+.intro {
+     padding-top: 90px;
+     background: white;
+}
+
+ .box_text {
+     max-width: 415px;
+     width: 100%;
+     padding: 25px 2px 2px 2px;
+     float: right;
+}
+
+
+.box_text .titlepage {
+     padding-bottom: 20px;
+     text-align: left;
+}
+ .box_text p {
+     font-size: 17px;
+     line-height: 35px;
+     font-weight: 400;
+     text-align: left;
+     color: #181716;
+     padding-right: 20px;
+}
+.box_text a {
+      font-size: 16px;
+      border: #000 solid 1px;
+      background-color: #000;
+      color: #fff;
+      padding: 9px 0px;
+      max-width: 171px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      border-radius: 30px;
+      float: left;
+      margin-top: 53px;
+  }
+  
+ .box_text a:hover {
+     background-color: #0ed1f0;
+     border: #0ed1f0 solid 1px;
+     color: #fff;
+}
+.padding_left3 {padding-right: 0px;}
+
+.intro figure {
+  margin: 0;
+}
+.intro figure img {
+  width: 100%;
+}
+
+footer{
+  color: white;
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .container{
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 10px;
+  display: flex;
+  align-items :center;
+
+}
+
+footer .container .left{
+  flex: 1;
+}
+
+footer .container .left h1{
+  margin: 0;
+}
+
+footer .container .left p{
+  margin: 0;
+  font-size: 10px;
+}
+
+
+footer .container .right{
+  flex: 3;
+  padding-left: 50px;
+}
+
+footer .container .right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .right .list{
+  flex: 1;
+  margin-left: 20px;
+
+}
+
+footer .container .right .list h2{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+
+}
+
+footer .container .right .list ul{
+  list-style: none;
+  padding: 0;
+
+}
+
+footer .container .right .list ul li{
+  padding: 5px 5px;
+
+}
+
+footer .container .right .list ul li:hover{
+  background: #222;
+}
+
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  body {
+    margin: 0;
+    background-color: white;
+  }
+
+  .login-form {
+    width: 300px;
+    background-color: #EEEFF1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+  }
+
+  .text-field {
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    width: 260px;
+    margin-bottom: 10px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    width: 260px;
+    background-color: gray;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  .links {
+    text-align: center;
+  }
+
+  .links a {
+    font-size: 12px;
+    color: #9B9B9B;
+  }
+  
+  
